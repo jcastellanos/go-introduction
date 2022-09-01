@@ -67,4 +67,4 @@ Luego de haber creado la imagen se puede ejecutar el contenedor de la siguiente 
 
 Para invocar el servicio de manera local podemos acceder a través de la siguiente URL:
 
-[http://localhost:8080/calcular?a=1&b=2] (http://localhost:8080/calcular?a=1&b=2)
+http://localhost:8080/calcular?a=1&b=2
