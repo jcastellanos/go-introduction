@@ -1,4 +1,4 @@
-module github.com/template-go
+module github.com/jcastellanos/go-introduction
 
 go 1.18
 
