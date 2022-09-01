@@ -1,5 +1,7 @@
 # Introducción a Go
 
+Este repositorio contiene una base para comenzar a realizar servicios REST con Go y puede ser utilizado como curso introductorio o como una plantilla para inicializar otros proyectos.
+
 ## Inicialización del proyecto (módulo)
 
 Lo primero que se debe hacer es inicializar el proyecto donde vamos a trabajar, para esto creamos la carpeta del proyecto y dentro de la carpeta se ejecuta el siguiente comando:
