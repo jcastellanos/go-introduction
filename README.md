@@ -20,26 +20,9 @@ Para este proyecto de ejemplo vamos a utilizar gin-gonic, para esto primero agre
 
 `go get -u github.com/gin-gonic/gin`
 
-En Go las aplicaciones se ejecuta a partir de la función main que se debe encontrar en el paquete main, para esto, creamos en la raíz del proyecto el archivo main.go con el siguiente contenido:
+En Go las aplicaciones se ejecuta a partir de la función main que se debe encontrar en el paquete main, para esto, creamos en la raíz del proyecto el archivo main.go:
 
-```go
-package main
-
-import (
-   "github.com/gin-gonic/gin"
-   "net/http"
-)
-
-func main() {
-   r := gin.Default()
-   r.GET("/ping", func(c *gin.Context) {
-      c.JSON(http.StatusOK, gin.H{
-         "message": "pong",
-      })
-   })
-   r.Run() // listen and serve on 0.0.0.0:8080 ("localhost:8080")
-}
-```
+https://github.com/jcastellanos/go-introduction/blob/main/main.go
 
 ## Ejecución del proyecto
 
