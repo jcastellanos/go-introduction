@@ -55,6 +55,8 @@ Para ejecutar todas las pruebas del correcto se debe ejecutar el siguiente coman
 
 ## Imagen de docker
 
+La imagen de docker se crea utilizar multi-stage para que quede lo mas limpia y de menor peso. La crear la imagen automaticamente
+se ejecutan todas las pruebas unitarias que trae el proyecto, en caso de que alguna presente error, la imagen no sera generada.
 Para crear la imagen de docker se ejecuta el siguiente comando:
 
 `docker build -t go-rest-api:latest .`
@@ -62,3 +64,7 @@ Para crear la imagen de docker se ejecuta el siguiente comando:
 Luego de haber creado la imagen se puede ejecutar el contenedor de la siguiente forma:
 
 `docker run -d -p 8080:8080 go-rest-api`
+
+Para invocar el servicio de manera local podemos acceder a través de la siguiente URL:
+
+[http://localhost:8080/calcular?a=1&b=2] (http://localhost:8080/calcular?a=1&b=2)

@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/template-go/usecases"
+	"github.com/jcastellanos/go-introduction/usecases"
 	"net/http"
 	"strconv"
 )
